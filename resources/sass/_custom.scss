@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .home-content {
+        padding: 380px 0 400px;
+    }
+
+    .fyh {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .sll {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .home-search-option {
+        margin-top: 145px;
+        position: relative;
+    }
+    .nav-center {
+        text-align: center;
+        padding-bottom: 10px;
+
+        ul.nav {
+            display: inline-block;
+
+            li {
+                display: inline;
+
+                a {
+                    float: left;
+                }
+            }
+        }
+        .nav-pills .nav-link.active,
+        .nav-pills .show > .nav-link {
+            background-color: purple;
+            border-color: purple;
+            color: #fff;
+        }
+
+        .nav-pills .nav-link {
+            background-color: #ffffff;
+            border-radius: 8px;
+            color: black;
+            font-size: 16px;
+            height: 50px;
+            width: 110px;
+            text-align: center;
+        }
+    }
+    .outer-form {
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        border: 1px solid;
+        bottom: -10px;
+        content: "";
+        left: -10px;
+        position: relative;
+        right: -10px;
+        top: -10px;
+        box-shadow: 10px 10px 5px gray;
+
+        .inner-form {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px 20px;
+            position: relative;
+            z-index: 9;
+            display: flex;
+            width: 100;
+            justify-content: space-between;
+            align-items: center;
+
+            .input-field input {
+                background-color: #ffffff;
+                border: 1px solid #ebebeb;
+                border-radius: 8px;
+                font-size: 14px;
+                color: #484848;
+                line-height: 1.2;
+                height: 50px;
+                width: 215px;
+            }
+
+            button.btn-search {
+                border-radius: 8px;
+                background-color: purple;
+                box-shadow: 0px 1px 4px 0px;
+                font-size: 16px;
+                color: #ffffff;
+                font-weight: bold;
+                line-height: 1.2;
+                height: 50px;
+                width: 170px;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}
